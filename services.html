@@ -1,65 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go Green - Services</title>
-</head>
+ <head>
+   <title>Services</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="services.css">
+ </head>
 <body>
   <header>
-    <h1>
-       <pre> Our Services</pre>
-    </h1>
-    <p>Empowering you to make sustainable choices for a healthier planet.</p>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="tips.html">Green Tips</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contacts.html">Contact Us</a></li>
-        </ul>
-    </nav>
-</header>
-    <section>
-       <h2>{Renewable Energy Solutions}</h2>
-       <img height="300" width="450" src="./Images/Renewable Source.webp" alt="Solar panels">
-       <p>We provide expert guidance on solar panel installations and wind tubine setups to help you switch to renewable energy sources. Join the green revolution and reduce your carbon footprint.</p>
-       <ul>
-        <li>Solar panel installation</li>
-        <li>Energy audits</li>
-        <li>Wind turbine consultation</li>
-       </ul>
-    </section>
-    <section>
-       <h2>{Green Building Consultations}</h2>
-       <img height="300" width="450" src="./Images/sustainable Living.png" alt="Solar panels">
-       <p>Our experts design sustainable buildings and spaces, emphasizing energy efficiency and eco-friendly materials. Build your dream home while caring for the environment.</p>
-       <ul>
-        <li>Eco-friendly architecture</li>
-        <li>Energy-saving designs</li>
-        <li>Use of sustainable materials</li>
-    </ul>
-    </section>
 
-    <section>
-        <h2>{Environmental Education}</h2>
-        <img height="300" width="450" src="./Images/Education.webp" alt="Nature workshop">
-        <p>Join our workshops and campaigns to learn practical ways to incorporate sustainable living into your daily life. Together, we can make a difference.</p>
-        <ul>
-            <li>Workshops for all ages</li>
-            <li>Community cleanup events</li>
-            <li>Sustainability campaigns</li>
-        </ul>
-    </section>
- 
+    <img src="./Images/Gogreenlogo.png" alt="LOGO">
+   <div class="headerDiv">
+    <h1>
+        Welcome to Go Green
+     </h1>
+     <nav>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="tips.html">Green Tips</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="contacts.html">Contact Us</a></li>
+         </ul>
+     </nav>
+     <h2 onclick="alert('1 Tree added. Congrats You Contributed In Tree Plantation Programme')">Donate💚</h2>
+
+
+  
+   </div>
+</header>
+    
+    <main class="services-container">
+        <h1 class="services-title">Our Environmental Services</h1>
+        <p class="services-intro">Empowering a sustainable future through innovative green solutions and expert guidance.</p>
+        
+        <div class="services-grid">
+            <section class="service-card">
+                <div class="service-icon">
+                    <i class='bx bxs-sun'></i>
+                </div>
+                <h2>Renewable Energy Solutions</h2>
+                <div class="service-image">
+                    <img src="./Images/Renewable Source.webp" alt="Solar panels installation">
+                </div>
+                <p>Transform your energy consumption with our comprehensive renewable energy solutions. We provide expert guidance on solar panel installations and wind turbine setups to help you switch to clean, sustainable power sources.</p>
+                <ul class="service-features">
+                    <li><i class='bx bx-check-circle'></i>Professional solar panel installation</li>
+                    <li><i class='bx bx-check-circle'></i>Detailed energy audits</li>
+                    <li><i class='bx bx-check-circle'></i>Wind turbine consultation</li>
+                    <li><i class='bx bx-check-circle'></i>Energy efficiency planning</li>
+                </ul>
+                <button class="service-cta">Learn More</button>
+            </section>
+
+            <section class="service-card">
+                <div class="service-icon">
+                    <i class='bx bxs-building-house'></i>
+                </div>
+                <h2>Green Building Consultations</h2>
+                <div class="service-image">
+                    <img src="./Images/sustainable Living.png" alt="Sustainable building design">
+                </div>
+                <p>Create sustainable spaces that harmonize with nature. Our expert architects and consultants specialize in eco-friendly design solutions that minimize environmental impact while maximizing comfort and efficiency.</p>
+                <ul class="service-features">
+                    <li><i class='bx bx-check-circle'></i>Eco-friendly architecture design</li>
+                    <li><i class='bx bx-check-circle'></i>Energy-efficient planning</li>
+                    <li><i class='bx bx-check-circle'></i>Sustainable material sourcing</li>
+                    <li><i class='bx bx-check-circle'></i>Green certification guidance</li>
+                </ul>
+                <button class="service-cta">Learn More</button>
+            </section>
+
+            <section class="service-card">
+                <div class="service-icon">
+                    <i class='bx bxs-graduation'></i>
+                </div>
+                <h2>Environmental Education</h2>
+                <div class="service-image">
+                    <img src="./Images/Education.webp" alt="Environmental workshop">
+                </div>
+                <p>Empower yourself and your community with knowledge. Our educational programs provide practical insights into sustainable living, environmental conservation, and eco-friendly practices.</p>
+                <ul class="service-features">
+                    <li><i class='bx bx-check-circle'></i>Interactive workshops</li>
+                    <li><i class='bx bx-check-circle'></i>Community engagement events</li>
+                    <li><i class='bx bx-check-circle'></i>Sustainability training</li>
+                    <li><i class='bx bx-check-circle'></i>Environmental awareness campaigns</li>
+                </ul>
+                <button class="service-cta">Learn More</button>
+            </section>
+        </div>
+
+        <section id="FAQ" class="faq-section">
+          <h2 class="faq-title">Frequently Asked Questions</h2>
+          
+          <div class="faq-container">
+              <div class="faq-item">
+                  <h3 class="faq-question">How can I start implementing renewable energy in my home?</h3>
+                  <p class="faq-answer">Starting your renewable energy journey begins with an energy audit of your home. Our team can assess your energy needs, evaluate your property's solar potential, and recommend the most cost-effective solutions. We typically start with energy-efficient upgrades before moving to solar panel installation or other renewable options.</p>
+              </div>
+
+              <div class="faq-item">
+                  <h3 class="faq-question">What makes a building "green" or environmentally friendly?</h3>
+                  <p class="faq-answer">A green building incorporates sustainable materials, energy-efficient systems, and environmentally conscious design principles. This includes features like proper insulation, energy-efficient windows, sustainable building materials, water conservation systems, and renewable energy integration. Our consultants can help you achieve various green building certifications like LEED.</p>
+              </div>
+
+              <div class="faq-item">
+                  <h3 class="faq-question">How can businesses benefit from your environmental education programs?</h3>
+                  <p class="faq-answer">Our corporate environmental education programs help businesses reduce their carbon footprint, implement sustainable practices, and engage employees in environmental initiatives. This can lead to reduced operational costs, improved corporate social responsibility, and enhanced brand reputation. We offer customized workshops and training sessions tailored to your organization's needs.</p>
+              </div>
+          </div>
+      </section>
+
+    </main>
 
     <footer>
-        <hr>
-      <p>  © 2024 Go Green. All Rights Reserved.</p>
-      <p>  Follow us:
-         <a href="https://facebook.com">Facebook</a> | <a href="https://twitter.com">Twitter</a> | <a href="https://instagram.com">Instagram</a></p>
-  </footer>
+    
+     <div class="footerBottom">
+        <div class="leftFooter">
+          <div class="explore">
+            <img src="./Images/Gogreenlogo.png" alt="">
+          <h2>Explore More</h2>
+          </div>
+       <div class="exploreSecondPart">
+        <p>Check out these helpful resources for living a green life:</p>
+        <ul>
+            <li><a target="_blank" href="https://www.nature.org/en-us/">The Natural Conservancy</a></li>
+            <li><a target="_blank" href="https://www.treehugger.com/">TreeHugger</a></li>
+            <li><a target="_blank" href="https://www.worldwildlife.org">World Wildlife Fund</a></li>
+        </ul>
+       </div>
+           <div class="copyright">
+
+
+            
+            <p>© 2024 Go Green. All Rights Reserved.</p>
+            <p>     Follow us:
+              <a target="_blank" href="https://facebook.com">
+                <i style="background-color: #fff; color: #1877F2;" class='bx bxl-facebook-square'></i>
+              </a> | 
+              <a target="_blank" target="_blank" href="https://twitter.com">
+                <i style="background-color: #fff; color: #1DA1F2;" class='bx bxl-twitter'></i>
+              </a> | 
+              <a target="_blank" href="https://instagram.com">
+                <i style="background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4, #5851db, #515bd4); color: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;" class='bx bxl-instagram'></i>
+              </a>
+              
+           </div>
+        </div>
+        <div class="rightFooter">
+            <div class="row">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Testimonials</a></li>
+              <li><a href="about.html#mission">Mission</a></li>
+            </div>
+            <div class="row">
+              <li><a href="contacts.html">Contact Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="tips.html#tips">Tips</a></li>
+            </div>
+            <div class="row">
+              <li><a href="about.html">About</a></li>
+              <li><a href="about.html#vision">Vision</a></li>
+              <li><a href="services.html#FAQ">FAQ</a></li>
+            </div>
+        </div>
+        
+     </div>
+    </footer>
+
 </body>
 </html>

@@ -4,26 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
   <header>
+
+    <img src="./Images/Gogreenlogo.png" alt="LOGO">
+   <div class="headerDiv">
     <h1>
-      
         Welcome to Go Green
-    </h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="tips.html">Green Tips</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contacts.html">Contact Us</a></li>
-        </ul>
-    </nav>
+     </h1>
+     <nav>
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="tips.html">Green Tips</a></li>
+             <li><a href="services.html">Services</a></li>
+             <li><a href="contacts.html">Contact Us</a></li>
+         </ul>
+     </nav>
+     <h2 onclick="alert('1 Tree added. Congrats You Contributed In Tree Plantation Programme')">Donate💚</h2>
+
+
+  
+   </div>
 </header>
+
+  
  <section>
-    <h1>         GET THE LATEST CONSERVATION NEWS</h1>
-    <h2>               Wanna Connect With Us?</h2>
+    <h1> GET THE LATEST CONSERVATION NEWS</h1>
+    <h2> Wanna Connect With Us?</h2>
     
      <form>
              
@@ -48,19 +60,19 @@
     <label for="country"><b>Country</b></label>
     <br>
                 
-    <input type="text"  id="country" required>
+    <input type="text"  id="country" placeholder="Country" required>
     <br>
                 
-    <label for="mnum"><b>Mobile Number</b></label>
+    <label for="mnum"><b>Mobile Number</b> </label>
     <br>
                 
-    <input type="text"  id="mnum" required>
+    <input type="text"  id="mnum" required placeholder="Phone Number"> 
     <br>
                 
     <label for="msg"><b>Message</b></label>
     <br>
                 
-   <textarea rows="10" cols="30" id="msg"></textarea>
+   <textarea rows="10" cols="30" id="msg" placeholder="Some Message"></textarea>
      <br>
      <br> 
                  <input type="submit" value="Contact Us"></input>
@@ -68,16 +80,104 @@
      </form>
 
 
+
+<div class="testimonials">
+    <h2>What People Say About Us</h2>
+    <div class="testimonials-container">
+        <div class="testimonial-card">
+            <i class='bx bxs-quote-left quote-icon'></i>
+            <div class="testimonial-image">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80" alt="Sarah Johnson">
+            </div>
+            <div class="testimonial-content">
+                <p class="testimonial-text">"Working with Go Green has been transformative. Their dedication to environmental conservation and practical approach to sustainability has helped our community reduce its carbon footprint significantly."</p>
+                <p class="testimonial-author">Sarah Johnson</p>
+                <p class="testimonial-role">Environmental Activist</p>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <i class='bx bxs-quote-left quote-icon'></i>
+            <div class="testimonial-image">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e" alt="David Chen">
+            </div>
+            <div class="testimonial-content">
+                <p class="testimonial-text">"The team at Go Green showed exceptional commitment to our reforestation project. Their expertise and passion for environmental conservation made the entire process smooth and impactful."</p>
+                <p class="testimonial-author">David Chen</p>
+                <p class="testimonial-role">Conservation Director</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 </section>
 
 
 
 
-     <footer>
-  <hr>
-    <p>            © 2024 Go Green. All Rights Reserved.</p>
-    <p>              Follow us:
-      <a href="https://facebook.com">Facebook</a> | <a href="https://twitter.com">Twitter</a> | <a href="https://instagram.com">Instagram</a></p>
+<footer>
+  <!-- <div class="imgPart">
+    <img src="./Images/footerimg.png" alt="">
+    <div class="imgTextPart">
+
+      <i class='bx bx-rocket'></i>
+          <h3>Make a Differnce: Embrace Solutions, Fight Against Pollution</h3>
+
+          <button>Work With Us ></button>
+
+    </div>
+  </div> -->
+ <div class="footerBottom">
+    <div class="leftFooter">
+      <div class="explore">
+        <img src="./Images/Gogreenlogo.png" alt="">
+      <h2>Explore More</h2>
+      </div>
+   <div class="exploreSecondPart">
+    <p>Check out these helpful resources for living a green life:</p>
+    <ul>
+        <li><a target="_blank" href="https://www.nature.org/en-us/">The Natural Conservancy</a></li>
+        <li><a target="_blank" href="https://www.treehugger.com/">TreeHugger</a></li>
+        <li><a target="_blank" href="https://www.worldwildlife.org">World Wildlife Fund</a></li>
+    </ul>
+   </div>
+       <div class="copyright">
+
+
+        
+        <p>© 2024 Go Green. All Rights Reserved.</p>
+        <p>     Follow us:
+          <a target="_blank" href="https://facebook.com">
+            <i style="background-color: #fff; color: #1877F2;" class='bx bxl-facebook-square'></i>
+          </a> | 
+          <a target="_blank" target="_blank" href="https://twitter.com">
+            <i style="background-color: #fff; color: #1DA1F2;" class='bx bxl-twitter'></i>
+          </a> | 
+          <a target="_blank" href="https://instagram.com">
+            <i style="background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4, #5851db, #515bd4); color: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;" class='bx bxl-instagram'></i>
+          </a>
+          
+       </div>
+    </div>
+    <div class="rightFooter">
+        <div class="row">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Testimonials</a></li>
+          <li><a href="about.html#mission">Mission</a></li>
+        </div>
+        <div class="row">
+          <li><a href="contacts.html">Contact Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="tips.html#tips">Tips</a></li>
+        </div>
+        <div class="row">
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#vision">Vision</a></li>
+          <li><a href="services.html#FAQ">FAQ</a></li>
+        </div>
+    </div>
+    
+ </div>
 </footer>
 </body>
 </html>
