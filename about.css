@@ -7,7 +7,7 @@
 html , body{
     height: 100%;
     width: 100%;
-    background-color: #DFDFF2;
+    background-color: #F0FFFF;
     color: #111;
     cursor:url('Images/betterLeafCursor.png'), auto;
 }
@@ -17,6 +17,7 @@ html , body{
   width: 100%;
   text-align: center;
   position: relative;
+  background-color: DFDFF2;
   
 }
 .aboutFirst>h2{
