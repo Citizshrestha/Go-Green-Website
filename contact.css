@@ -9,14 +9,13 @@ html , body{
     width: 100%;
     background-color: #F9F9F9;
 }
-section h1{
-    text-align: center;
-}
-/* ... existing CSS ... */
+
+
 
 section h2 {
-    text-align: center;
     font-size: 2.5rem;
+    text-align: center;
+    padding-left: 2rem;
     margin: 2rem 0;
     color: #2c7744;
     text-transform: uppercase;
@@ -29,9 +28,9 @@ section h2::after {
     content: '';
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 52%;
     transform: translateX(-50%);
-    width: 100px;
+    width: 500px;
     height: 3px;
     background: linear-gradient(90deg, #2c7744, #66bb6a);
 }
@@ -39,12 +38,12 @@ section h2::after {
 section h2:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 6px 6px 4px #0e0d0d1a;
 }
 form {
     max-width: 600px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     background: linear-gradient(145deg, #eadfdfd2, #f0f0f0);
     border-radius: 20px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.1);
@@ -52,20 +51,21 @@ form {
 
 form label {
     color: #2c5e1a;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    font-size:1.1rem;
     display: block;
 }
 
 form input, form textarea {
     width: 100%;
-    padding: 12px;
-    margin-bottom: 1.5rem;
+    padding: 10px;
+    margin-bottom: 1rem;
     border: 2px solid #e0e0e0;
     border-radius: 10px;
     font-size: 1rem;
     transition: all 0.3s ease;
+    
 }
+
 
 form input:focus, form textarea:focus {
     border-color: #2c5e1a;
@@ -75,6 +75,8 @@ form input:focus, form textarea:focus {
 
 form input[type="submit"] {
     background: #2c5e1a;
+    width: 60%;
+    margin-left: 9rem;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -86,15 +88,15 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background: #1e4012;
+    background: #369314;
     transform: translateY(-3px);
 }
 
-/* Testimonials Section */
+
 .testimonials {
     padding: 4rem 0;
     background: #f9f9f9;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .testimonials h2 {
@@ -160,7 +162,8 @@ form input[type="submit"]:hover {
 
 .testimonial-role {
     color: #888;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .quote-icon {

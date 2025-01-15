@@ -1,170 +1,88 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  Gilroy;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
 }
 html , body{
-    height: 100%;
-    width: 100%;
-    background-color: #F0FFFF;
-}
-
-.landingPage{
-  min-height: 80vh;
-  object-fit: cover;
-  position: relative;
- }
- .landingPage>img{
-  border-radius: 30px;
-  height: 70vh;
+  height: 100%;
   width: 100%;
-  
-
- }
- .imgMasker{
-   position: absolute;
-   top: 14%;
-   left: 40%;
-   color: #fff;
-   font-size: 2.7rem;
-   width: 30%;
-   text-align: center;
-
- }
- .picsText{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 200px;
-  }
- .picsText>img{
-  height: 35vh;
-  width: 35vh;
-  border-radius: 20px;
-  
- }
- .textDiv{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #A7CE47;
-  color: #fff;
-  height: 120px;
-  font-size: 1.7rem;
-  border-radius: 20px;
-  
- }
- .textDiv>i:nth-child(1){
-  font-size: 8rem;
- }
- .textDiv>h4{
-  width: 50%;
-  padding-left: 1.5rem;
- }
- .textDiv>i:nth-child(3){
-  font-size: 5rem;
-
- }
-
- .sliderContainer{
-  height: 150px;
-  width: 100%;
-  background-color: #041704;
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-.slides{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* overflow: hidden; */
-  animation-delay: 1s;
-  animation: slideAnim 40s ease-in-out infinite;
+background-color: azure;
 }
 
-.slide{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
+section{
+  font-family: gilroy;
 }
-.slide h2{
-  white-space: nowrap;
-  font-size: 8rem;
-  color: #fff;
-}
-@keyframes slideAnim {
-  0%{
-    transform: translateX(0%);
-  }
-  100%{
-    transform: translateX(-100%);
-  }
-}
+.tipsPart{
+background-color: #DFDFF2;
+font-family: gilroy;
 
+
+}
 .tipsPart>img{
-  height: 50vh;
-  width: 50vh;
+height: 50vh;
+width: 50vh;
+
+
 }
 .tipsPart h2 {
-  text-align: center;
-  position: relative;
-  padding: 20px 0;
-  color: #041704;
-  font-size: 2.5rem;
+text-align: center;
+position: relative;
+padding: 20px 0;
+color: #041704;
+font-size: 2.5rem;
 }
 
 .tipsPart h2::before,
 .tipsPart h2::after {
-  content: '';
-  position: absolute;
-  height: 3px;
-  width: 150px;
-  background-color: #041704;
-  top: 50%;
+content: '';
+position: absolute;
+height: 3px;
+width: 150px;
+background-color: #041704;
+top: 50%;
 }
 
 .tipsPart h2::before {
-  left: 20%;
+left: 20%;
 }
 
 .tipsPart h2::after {
-  right: 20%;
+right: 20%;
 }
 
 .tipsPart {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+padding: 40px;
+font-family:  gilroy;
+
 }
 
 .tipsPart > img,
 .tipsPart > pre,
 .tipsPart > p {
-  width: 45%;
-  font-size: 1.3rem;
+width: 45%;
+font-size: 1.3rem;
 }
 
 .tipsPart > img {
-  align-self: flex-start;
+align-self: flex-start;
 }
 
 
 .tipsPart  p {
-  align-self: flex-end;
-  text-align: justify;
-  line-height: 1;
-  font-size: 1.4rem;
-  width: 90%;
-  padding-left: 2rem;
+align-self: flex-end;
+text-align: justify;
+line-height: 1;
+font-size: 1.4rem;
+width: 90%;
+padding-left: 2rem;
 }
 .tip{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
 }
