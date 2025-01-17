@@ -8,7 +8,7 @@ html , body{
   height: 100%;
   width: 100%;
   color: #111;
-  background-color:#F0FFFF;
+  background-color:#DFDFF2;
   cursor:url('Images/betterLeafCursor.png'), auto;
 }
 
@@ -237,7 +237,7 @@ font-weight: 500;
 }
 
 .aboutSecond{
-background-color: #F3F2EE;
+background-color: #DFDFF2;
 padding: .5rem;
 }
 .missionvision h1{
