@@ -480,8 +480,13 @@ position: absolute;
 right: 0;
 }
 footer{
-min-height: 20vh;
+min-height: 50vh;
 width: 100%;
+background-color: azure;
+position: relative;
+display: flex;
+flex-direction: column; 
+margin-top: auto;
 
 }
 .imgPart{
@@ -559,7 +564,7 @@ transform: scaleX(1);
 transform-origin: left;
 }
 .footerBottom{
-height: 50vh;
+height: 52vh;
 width: 100%;
 background-color: azure;
 position: relative;
@@ -567,39 +572,36 @@ display: flex;
 
 }
 .contact-info {
-margin-top: 1rem;
- padding: 15px;
- border-radius: 8px;
- background-color: rgba(255, 255, 255, 0.1);
- display: flex;
- align-items: center;
- justify-content: center;
- flex-direction: column;
- position: absolute;
- bottom: 0;
- left: 0;
+  margin-top: 10rem;
+  margin-right: 12rem;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact-info p {
- margin-top: 1rem;
- color: #111;
- font-size: 0.9rem;
- display: flex;
- align-items: center;
- gap: 10px;
- font-size: 1.1rem;
-
+  margin-top: 1rem;
+  color: #111;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact-info i {
- font-size: 1.2rem;
- color: #0dc682dc;
+  font-size: 1.2rem;
+  color: #0dc682dc;
 }
 
 .contact-info p:hover {
- transform: translateX(5px);
- transition: transform 0.3s ease;
+  transform: translateX(5px);
+  transition: transform 0.3s ease;
 }
+
 .explore{
 display: flex;
 align-items: center;

@@ -65,7 +65,7 @@ font-family:  gilroy;
 .tipsPart > img,
 .tipsPart > pre,
 .tipsPart > p {
-width: 45%;
+width: 65%;
 font-size: 1.3rem;
 }
 
@@ -79,12 +79,12 @@ align-self: flex-end;
 text-align: justify;
 line-height: 1;
 font-size: 1.4rem;
-width: 90%;
+width: 97%;
 padding-left: 2rem;
 }
 .tip{
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 20px;
+gap: 30px;
 }
