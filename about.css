@@ -239,10 +239,14 @@ font-weight: 500;
 .aboutSecond{
 background-color: #DFDFF2;
 padding: .5rem;
+
 }
 .missionvision h1{
 font-size: 5rem;
 text-align: center;
+font-family: 'gilroy';
+
+
 }
 .mv{
 display: flex;
@@ -250,14 +254,18 @@ align-items: center;
 justify-content: space-between;
 gap: 10px;
 text-align: center;
+
 }
 
 .mv h4{
 font-size: 3rem;
+font-family: 'gilroy';
+
 }
 
 .mission>b{
-font-size: 1.2rem;
+font-size: 1rem;
+
 }
 .missionvision  img{
 width: 26rem;
@@ -270,6 +278,8 @@ border-radius: 20px ;
 .missionvision p{
 width: 40%;
 font-size: 1.3rem;
+font-family: 'gilroy';
+
 
 border-radius: 30px;
 background-color: #7BA78D;
