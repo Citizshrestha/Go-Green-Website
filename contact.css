@@ -8,24 +8,58 @@
 html , body{
     height: 100%;
     width: 100%;
-    background-color: #F9F9F9;
+    background-color: #DFDFF2;
 }
 
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    
+    
+    margin: 20px;
+}
 
+.image-container {
+    flex: 1;
+    height: 75vh;
+    width: 30vh;
+    margin-top: 1rem;
 
-section h2 {
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styling */
+.form-container {
+    flex: 1;
+    max-width: 600px;
+    background-color: #dadafe;
+    margin-left: 2rem;
+
+    
+}
+
+ #toph {
     font-size: 2.5rem;
     text-align: center;
-    padding-left: 2rem;
     margin: 2rem 0;
     color: #2c7744;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: relative;
     padding-bottom: 15px;
+    white-space: nowrap;
 }
 
-section h2::after {
+ #toph::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -35,8 +69,7 @@ section h2::after {
     height: 3px;
     background: linear-gradient(90deg, #2c7744, #66bb6a);
 }
-
-section h2:hover {
+ #toph:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
     text-shadow: 6px 6px 4px #0e0d0d1a;
