@@ -7,8 +7,8 @@
 html , body{
   height: 100%;
   width: 100%;
+  background-color: #fff;
   color: #111;
-  background-color:#DFDFF2;
   cursor:url('Images/betterLeafCursor.png'), auto;
 }
 
@@ -17,7 +17,8 @@ min-height: 110vh;
 width: 100%;
 text-align: center;
 position: relative;
-background-color: #DFDFF2;
+background-color:#DFDFF2;
+
 
 
 }
@@ -31,6 +32,9 @@ width: 65%;
 transform: translateX(12%);
 
 
+}
+header{
+     background-color:#DFDFF2;
 }
 .aboutFirst h2 span{
 background-color: #ABC38E;

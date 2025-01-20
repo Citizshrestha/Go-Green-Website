@@ -8,10 +8,13 @@
 html , body{
   height: 100%;
   width: 100%;
-background-color: #DFDFF2;
+background-color: #fff;
 
 }
+header{
+  background-color: #DFDFF2;
 
+}
 section{
   font-family: gilroy;
 }
@@ -77,7 +80,7 @@ align-self: flex-start;
 .tipsPart  p {
 align-self: flex-end;
 text-align: justify;
-line-height: 1;
+line-height: 1.5;
 font-size: 1.4rem;
 width: 97%;
 padding-left: 2rem;

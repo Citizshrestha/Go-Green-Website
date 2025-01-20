@@ -3,9 +3,12 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #DFDFF2;
+    background-color: #fff;
   }
+ header{
+  background-color: #DFDFF2;
 
+ }
   .hero {
     background-image: url(Images/Services\ landing\ Page.jpg);
     background-size: cover;
@@ -21,7 +24,9 @@ body {
   .hero-content {
     max-width: 800px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+  
+
+
     border-radius: 10px;
   }
   
@@ -42,12 +47,22 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #36e55c; 
+    transform: translateY(-18px); 
+    
+    box-shadow: 20px 4px 18px #12261333; 
   }
   
   
   .services-section {
     text-align: center;
     padding: 50px 20px;
+    background-color: #DFDFF2;
+
   }
   
   .services-section h1 {

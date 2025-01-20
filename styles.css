@@ -482,6 +482,7 @@ right: 0;
 footer{
 min-height: 50vh;
 width: 100%;
+margin-bottom: 0;
 background-color: azure;
 position: relative;
 display: flex;
@@ -576,7 +577,6 @@ display: flex;
   margin-right: 12rem;
   padding: 15px;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
